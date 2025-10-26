@@ -22,6 +22,10 @@ npm run tauri dev
 
 After a few seconds, the Desktop app will automatically appear.
 
+### Dependencies
+
+We use Tauri's [Shell](https://v2.tauri.app/plugin/shell/) plugin to launch `mongodump` and `mongorestore` on the user's computer.
+
 ### References
 
 - [Project structure](https://tauri.app/start/project-structure/)
