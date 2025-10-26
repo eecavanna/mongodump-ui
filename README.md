@@ -20,7 +20,11 @@ npm install
 npm run tauri dev
 ```
 
-After a few seconds, the Desktop app will automatically appear.
+After a few seconds, the Desktop app's UI will automatically appear.
+
+Whenever you make a change to the source code (and save it), the Desktop app's UI will automatically reload to reflect the change.
+
+To view the JavaScript console (where `console.log(...)` messages go), right-click the Desktop app's UI and—in the menu that appears—click "Inspect Element" (just like in a web browser).
 
 ### Dependencies
 
@@ -30,3 +34,13 @@ We use Tauri's [Shell](https://v2.tauri.app/plugin/shell/) plugin to launch `mon
 
 - [Project structure](https://tauri.app/start/project-structure/)
 - (Optional) If using [VS Code](https://code.visualstudio.com/), install these extensions: [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode), [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+### Roadmap
+
+1. Allow user to specify path to `mongodump`
+2. Allow user to choose options for `mongodump`
+3. Invoke `mongodump` with chosen options and display progress
+4. Allow user to specify path to `mongorestore`
+5. Allow user to choose options for `mongorestore`
+6. Invoke `mongorestore` with chosen options and display progress
+7. Build a [distributable](https://v2.tauri.app/distribute/#building) version of the app
