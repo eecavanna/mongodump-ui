@@ -1,11 +1,12 @@
 # mongodump-ui
 
-`mongodump-ui` is a graphical user interface for MongoDB's `mongodump` and `mongorestore` programs. It's a [Tauri](https://tauri.app/)-based Desktop app written in [TypeScript](https://www.typescriptlang.org/).
+`mongodump-ui` is a graphical user interface for MongoDB's `mongodump` and `mongorestore` programs. It's a [Tauri](https://tauri.app/)-based Desktop app for macOS, written in [TypeScript](https://www.typescriptlang.org/) and [Rust](https://tauri.app/start/prerequisites/#rust).
 
 ## Development
 
 ### Prerequisites
 
+- You are using macOS
 - Install [Xcode](https://tauri.app/start/prerequisites/#macos)
 - Install [Rust](https://tauri.app/start/prerequisites/#rust)
 - Install [Node.js](https://tauri.app/start/prerequisites/#nodejs)
