@@ -1,5 +1,8 @@
 # mongodump-ui
 
+> [!IMPORTANT]  
+> `mongodump-ui` does not do anything yet. The introductory statement below is more of a "vision statement" at this point (it describes the thing I intend to build in this repository).
+
 `mongodump-ui` is a graphical user interface for MongoDB's `mongodump` and `mongorestore` programs. It's a [Tauri](https://tauri.app/)-based Desktop app for macOS, written in [TypeScript](https://www.typescriptlang.org/) and [Rust](https://tauri.app/start/prerequisites/#rust).
 
 ## Development
